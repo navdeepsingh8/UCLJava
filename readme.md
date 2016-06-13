@@ -6,15 +6,15 @@ Java code I wrote during my undergraduate days in the Computer Science departmen
 
 [__\_practise__](\_practise/): My testing ground for trying out stuff and learning from other people's code. Who knows [what](\_practise/BackDoorServer.java) you'll find in there...
 
-[__Dictionary__](Dictionary/): A dictionary/database that you build up by typing words using the keyboard. 
+[__Dictionary__](Dictionary/): A dictionary/database that you build up by typing words into the keyboard. 
 
-[__Greed__](Greed/): A simple <a href="https://en.wikipedia.org/wiki/Farkle" target="_blank">dice game</a>, set to as a first year coursework to practise writing object oriented code.
+[__Greed__](Greed/): A simple <a href="https://en.wikipedia.org/wiki/Farkle" target="_blank">dice game</a>, set as a first year coursework to practise writing object oriented code.
 
 [__Nokia__](Nokia/): An incomplete attempt at mimicking some of the UI functionality of my (then) smart new <a href="http://bit.ly/1GL6m9W" target="_blank">Nokia 3310</a> mobile phone :D
 
-[__Parsing__](Parsing/): Another coursework, this time to write a parser. Erased from my memory due to the trauma.
+[__Parsing__](Parsing/): Another coursework, this time to write a parser. All memory of this has vanished due to the trauma.
 
-[__VSCC__](VSCC/): I think this stood for *V*ery *S*hort *C*ompiler *C*ourse. Enough said.
+[__VSCC__](VSCC/): I think this stood for **V**ery **S**hort **C**ompiler **C**ourse. Enough said.
 
 [__eBook__](eBook/): A GUI for reading XML based e-books.
 
