@@ -1,0 +1,15 @@
+{
+        print("Enter histogram values on one line, last value 0 > "); 
+        n = read;
+        while (n>0) 
+        {
+              print("\n");
+              while (n>0)
+              {
+                     print("#");
+                     n--;
+              }
+              n = read;
+        }
+        print("\n");
+}

@@ -1,0 +1,49 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "eBook"
+JDKPROFILE := ""
+ACTIVE := "1"
+OUTPUTPATH := "classes"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "" RUNAPPLET := "" PARAM := "" RUN := "ebookapp.EBook" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFolder]
+LABEL := "bookmanager"
+FILTER := ""
+
+#[BeginFile]SOURCE := "bookmanager\\BookMark.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\BookReaderIF.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\BookParser.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\BookModel.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\BookDataStructure.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\BookCreatorIF.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\BookParserIF.java" #[EndFile]
+#[BeginFolder]
+LABEL := "testing"
+FILTER := ""
+
+#[BeginFile]SOURCE := "bookmanager\\testing\\BookDataStructureTest.java" #[EndFile]
+#[BeginFile]SOURCE := "bookmanager\\testing\\BookParserTest.java" #[EndFile]
+#[EndFolder]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "ebookapp"
+FILTER := "*.java;"
+
+#[BeginFile]SOURCE := "ebookapp\\AppFrame.java" #[EndFile]
+#[BeginFile]SOURCE := "ebookapp\\JTextAreaWriter.java" #[EndFile]
+#[BeginFile]SOURCE := "ebookapp\\EBook.java" #[EndFile]
+#[BeginFile]SOURCE := "ebookapp\\AppFrame_AboutBox.java" #[EndFile]
+#[BeginFile]SOURCE := "ebookapp\\Model.java" #[EndFile]
+#[EndFolder]
+#[EndFolder]

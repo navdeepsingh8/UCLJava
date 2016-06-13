@@ -1,0 +1,7 @@
+*.pdf
+*.jpg
+*.png
+cache/
+.*
+!/.gitignore
+*.class

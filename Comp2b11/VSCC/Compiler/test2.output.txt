@@ -1,0 +1,14 @@
+Error in your source program at line 15
+if (this <is <wrong) print("this statement should not have compiled");
+             ^
+Unexpected input RELOP[<]. RPAREND expected.  Skipping ...
+Resuming parsing at marked token in line 17
+--x;
+^^
+Error in your source program at line 17
+--x;
+^^
+No statement begins with INCOP[--].  Skipping ...
+Resuming parsing at marked token in line 19
+}
+^

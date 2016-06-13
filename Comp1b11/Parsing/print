@@ -1,0 +1,5 @@
+for i in unix/*.java unix/test.prog
+do 
+a2ps $i | lpr -Pcopier
+done
+

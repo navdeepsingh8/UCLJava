@@ -1,0 +1,1771 @@
+---------------------------------------------------------
+           Microsoft Access 2000 Readme File
+                       June 1999
+
+    Microsoft Corporation, 1999. All rights reserved.
+---------------------------------------------------------
+
+This document provides late-breaking or other information 
+that is relevant to Microsoft Access 2000, and is current 
+as of the date above. After that date, you may find more 
+current information and resources on the Microsoft 
+Office Update Web site, available from the Help menu by 
+clicking Office on the Web. Additional information, 
+including network and administration issues, can be found 
+on the Office Resource Kit Web site at: 
+
+http://www.microsoft.com/office/ork/
+
+For further technical information on Access, see the 
+Microsoft Personal Support Center at:
+
+http://support.microsoft.com/support/
+
+_________________________________________________________
+
+--------
+CONTENTS
+--------
+
+INSTALLATION
+   Turn Off Virus Protection
+   Problems Installing to a Folder Whose Name
+      Contains Punctuation Characters
+   Minimum System Requirements for Access 2000
+   Some Features Switch Automatically to a Different   
+      Setting During Custom Install
+   Installing Access 2000 on a Network
+   Prompt for CD Key When Installing from an 
+      Administrative Installation
+   Message "File already in use" When Running Access 2000 
+      from a Network
+   Installing Access 2000 over an Access 97 Run-time 
+      Application
+   Unexpected Message during Installation
+   Installing Access 2000 Without Removing the Beta 2 
+      Build of Office 2000 
+   Access 2000 Shortcut on the Programs Menu Varies 
+      According to Your Operating System
+WORKING WITH ACCESS 2000
+   Displaying Dates with Four-Digit Years 
+   Euro Symbol Not Printed Correctly 
+   Maximum Number of Levels of Nested Forms or Reports
+   "Out of Memory" Message on Windows NT Server 4.0 or 
+      Windows NT Workstation 4.0
+   Enclosing Controls or Using ToolTips in a Rectangle
+   Using the Image Control in a Data Access Page
+   Print Commands Unavailable When Data Access Page Is 
+      Selected in Database Window
+   "Undefined function" Message When Opening Data Access 
+      Page
+   Preventing Unauthorized Access from Scripts in Data 
+      Access Pages
+   Color Palette in Data Access Pages When Display Is 
+      Configured to Use 256 Colors
+   Problems When Using Taskbar Buttons To Navigate 
+      Between Multiple Data Access Pages
+   Display Problems When Scrolling Through the Employees 
+      Form in Northwind
+   Using Northwind Sample Database Located on 
+      Read-only Share
+   Obtaining Microsoft Office 2000 Proofing Tools
+   WebBot Components Not in Office 2000 Developer
+   Colors May Not Display Correctly on 256-Color Monitors
+MICROSOFT JET
+   ANSI-92 Compliant SQL
+   COUNTER and IDENTITY 
+CONVERSION AND COMPATIBILITY
+   Compatibility Library
+   Turning On Name AutoCorrect in a Converted Access 
+      Database
+MICROSOFT ACCESS PROJECTS
+   Unexpected Behavior When SQL Statement Output Contains 
+      Two Fields with Same Name
+   Can't Refer To Controls in Forms or Reports in 
+      Aggregate Functions
+   Rebooting Your Computer after Installing Microsoft 
+      Data Engine (MSDE)
+   "Order by clause may not be used in this query type" 
+      When View Has TOP Clause
+   Incoming Named Pipe Connections Not Supported on 
+      Windows 95 or Windows 98
+   Microsoft Data Engine Rules for Naming Identifiers
+OFFICE WEB COMPONENT ISSUES
+   Editing a Formula in a Cell That Contains a Hyperlink
+   ASC Worksheet Function Not Supported by the 
+      Spreadsheet Component
+MICROSOFT ACCESS 2000 HELP
+MICROSOFT VISUAL BASIC FOR APPLICATIONS
+   Additional Information about Data Access Components
+   Functions Broken Because Of vbDatabaseCompare
+   DataAccessPage Object, DataAccessPages Collection Code   
+      Example
+   Context Property (CommandBar Object)
+   Chart Workspace Object Model (Office Web Components)
+   SelectionChange Event (Office Web Components)
+   GetValue Method (Office Web Components)
+   HTMLData Property (Office Web Components)
+   KeyChar Property (Office Web Components)
+   RecordsetLabel Property (Office Web Components)
+   Value Property (Office Web Components)
+   Default Language for Visual Basic Editor and Microsoft   
+      Script Editor
+   New Properties (VBA)
+   Use F3 to Find Next Text Occurrence in the Code Window
+   System Event Notification System
+   HTML Reference Documentation
+   Internet Explorer Versions and Editing HTML
+   "Topic Not Found" Topic (Microsoft Script Editor)
+   "Property cannot be set" When Changing ControlSource 
+      on Data Access Page
+MULTILINGUAL ISSUES
+   GENERAL
+      Code Page of Client Machine Must Match Code Page of 
+         Server
+      Create Registry Keys To Temporarily Enforce a Code 
+         Page During Conversion
+      Error Messages Appear in Wrong Language When Using 
+         Language Pack
+      Key Assignment Macros in AutoKeys Macro Group No 
+         Longer Work
+      Message "Database 'msdb' cannot be opened"
+      Cannot Log On As "Administrator" When Modifying 
+         Page Connection String
+      Non-U.S., Non-East Asian: Northwind SQL Project Not 
+         Advertised in the User Interface
+      Hyperlink to Database Object Doesn't Work with 
+         Object Type Name in Local Language
+   RIGHT-TO-LEFT LANGUAGES
+      Printing in Right-to-Left Languages
+      Expression Builder Limitations for Right-to-Left 
+         Languages
+      Hijri Database Calendar in Sample Applications
+      Input Mask Restrictions for Right-to-Left Languages
+      Hijri Calendar Support in Data Access Pages and Web 
+         Pages 
+      Viewing Arabic Data in Microsoft Replication 
+         Conflict Viewer and Import/Export Wizards
+   ASIAN LANGUAGES
+      Possible Display Problems When Using Multiple Asian 
+         Fonts
+_________________________________________________________
+
+INSTALLATION
+
+Turn Off Virus Protection
+-------------------------
+Some virus protection programs can interfere with the 
+Microsoft Office 2000 or Microsoft Access 2000 stand-
+alone version installation program. If you use a virus 
+protection program on your computer, turn it off before 
+installing. You can turn the virus protection program 
+back on after installation is complete. 
+
+Note -- If your virus-protection program starts 
+automatically when you start Windows, you can turn it off 
+by restarting Windows while holding down the SHIFT key.
+
+Problems Installing to a Folder Whose Name Contains 
+Punctuation Characters
+---------------------------------------------------------
+Do not use a comma (,), single quotation mark ('), or 
+exclamation point (!) in the name of the folder where you 
+install Access 2000. It is recommended that you use the 
+default folder or use only letters and numbers in folder 
+names.
+
+Minimum System Requirements for Access 2000
+--------------------------------------------
+Microsoft Access 2000 is included in the following 
+editions:
+
+* Microsoft Office 2000 Professional
+* Microsoft Office 2000 Premium
+* Microsoft Office 2000 Developer
+
+To use Access 2000, you need:
+* PC with a Pentium 75 MHz or higher processor
+* Microsoft Windows 95 or later operating system, or 
+  Microsoft Windows NT Workstation operating system 
+  version 4.0 Service Pack 3 or later
+* For Windows 95 or Windows 98:
+    16 MB of RAM for the operating system, plus an 
+    additional 8 MB of RAM for Access
+* For Windows NT Workstation version 4.0 Service Pack 3 
+  or later:
+    32 MB of RAM for the operating system, plus an 
+    additional 8 MB of RAM for Access
+* Available hard-disk space for Access 2000 (Number 
+  indicates  typical installation. Your hard-disk usage 
+  will vary depending on configuration. Choices made 
+  during Custom installation might require more or less 
+  hard-disk space): 
+    Typical installation: 161 MB
+* Available hard-disk space for Office 2000 (Numbers 
+  indicate typical installation; your hard-disk usage 
+  will vary depending on configuration. Choices made 
+  during Custom installation might require more or less 
+  hard-disk space.):
+    217 MB for Disc 1 (Word, Excel, Outlook, PowerPoint, 
+      Access)
+* CD-ROM drive
+* VGA or higher resolution monitor; Super VGA recommended
+* Microsoft Mouse, Microsoft IntelliMouse, or 
+  compatible pointing device
+
+Additional items or services required to use certain 
+features:
+* 9600 baud modem; 14,400 or higher baud recommended
+* Multimedia computer required to access sound and other 
+  multimedia effects
+* Microsoft Exchange client or Microsoft Outlook 
+  required to run Office E-mail
+* 8 MB of additional memory required to run Office E-mail
+* Some Internet functionality might require Internet 
+  access and payment of a separate fee to a service 
+  provider
+
+Some Features Switch Automatically to a Different Setting 
+During Custom Install
+---------------------------------------------------------
+During a custom installation, if you set Access to "Not 
+Available" and then change certain features of Access to 
+something other than "Not Available," some additional 
+features will also switch from "Not Available" to the new 
+setting you chose.  The features affected are:
+
+Help
+Typical Wizards
+Additional Wizards
+Snapshot Viewer
+Database Replication
+
+If you are trying to save space on your disk, try setting 
+Access or the individual feature to "Installed on First 
+Use" instead. 
+
+Installing Access 2000 on a Network
+-----------------------------------
+>>> To create an administrative installation point for 
+Access 2000:
+
+1. Create a share on a network server for the 
+   administrative installation point. The network share 
+   must have at least 550 megabytes (MB) of available 
+   disk space. 
+2. On a computer that is running Microsoft Windows 95/98,
+   Windows NT Workstation or Windows NT Server and that 
+   has write permission to the share, connect to the 
+   server share. 
+3. On the Start menu, click Run, and then click Browse. 
+4. On Office Disc 1 in the CD-ROM drive, select setup.exe 
+   and click Open. 
+5. On the command line following setup.exe, type 
+     /A DATA1.MSI 
+   and click OK. 
+   For example: 
+     E:\SETUP.EXE /A DATA1.MSI 
+6. When prompted, enter the organization name that you 
+   want to define for all users who install Office from 
+   this location. 
+7. When prompted for the installation location, enter the 
+   server and share you created. 
+
+For more information about network and administration 
+issues, see the Office Resource Kit Web site at: 
+
+http://www.microsoft.com/office/ork
+
+Prompt for CD Key When Installing from an Administrative 
+Installation 
+-------------------------------------------------------
+When you install Access 2000 on your computer from an 
+administrative installation on a server, you might be 
+prompted for a CD key. This occurs if the system 
+administrator who created the administrative 
+installation did not enter the CD key.
+
+To solve this problem, ask the system administrator to 
+create a new administrative installation and enter the CD 
+key in the first dialog box. After this has been done, 
+you will not be prompted for the CD key when you install 
+Access 2000 from this new administrative installation.
+ 
+Message "File already in use" When Running Access 2000 
+from a Network
+---------------------------------------------------------
+If you are running Access 2000 from the network, you 
+might receive the following message when you open an 
+Access database:
+   Could not use 'Admin'; file already in use.
+This message occurs when a user who has Write permissions 
+to the network share opens an Access database; subsequent 
+users who have only Read permissions to that share 
+receive the message when they attempt to open an Access 
+database. 
+
+After you have run the administrative installation of 
+Office 2000 or Access 2000, you can prevent this message 
+by setting the effective share-level permissions to Read 
+permissions for all users who will run Access 2000 from 
+the network server. If you are an administrator, you 
+might want to create a separate share to the same folder, 
+and give any administrators Full Control permissions so 
+that they can maintain the files in this folder. However, 
+all users should install Office 2000 or Access 2000 from 
+the share with Read permissions.  
+
+Installing Access 2000 over an Access 97 Run-time 
+Application
+---------------------------------------------------------
+If you are upgrading from Access 97 or Office 97 on a
+computer where you have installed an Access 97 run-time 
+application, the default installation location for Office 
+2000 or Access 2000 is:
+
+   C:\Program Files\Office2K
+
+Installing Office 2000 or Access 2000 to this alternate 
+default location ensures that you keep the Access 97 
+version of Msaccess.exe if it is needed by the run-time 
+application.
+
+Unexpected Message during Installation
+--------------------------------------
+If you get an unexpected message during the installation 
+of Office, and you get the same message when you try to 
+install Office again, you can create a log file that will 
+be useful to Microsoft Product Support Services in 
+troubleshooting the problem. Once you create the file, 
+you will need to call Microsoft Product Support Services.
+
+>>> To create the log file:
+ 
+1. Click the Start button on the taskbar, and then click 
+   Run.
+2. In the Open box, type: 
+ 
+      <path>\Setup.exe /L*v c:\Verboselog.txt
+ 
+   where <path> is the location of Setup.exe. For  
+   example, if you are installing from a CD-ROM drive, 
+   then the text you would type might look like:
+ 
+      d:\Setup.exe /L*v c:\Verboselog.txt
+ 
+3. Click OK.
+ 
+Setup will start again and a log file called 
+Verboselog.txt will be created at the root of your C: 
+drive.
+
+Installing Access 2000 Without Removing the Beta 2 Build 
+of Office 2000 
+---------------------------------------------------------
+When starting Access 2000, you might receive the 
+following message: 
+
+   Required registry information is missing and this 
+   application cannot run. Please rerun Setup to correct 
+   this problem. 
+
+Or, after a few seconds, the program might quit. 
+
+You might experience either of the above if you installed 
+Access 2000 without removing the Beta 2 build (2221b) of 
+Microsoft Office 2000.
+
+>>> To solve this problem, do the following to remove the 
+Beta 2 build of Office 2000:
+
+1. Click the Start button on the taskbar, point to 
+   Settings, and click Control Panel.
+2. Double-click the Add/Remove Programs icon.
+3. In the list of installed programs, click Microsoft 
+   Office 2000 Premium Edition. (This is the Beta 2 
+   version of Office 2000.)
+4. Click Add/Remove.
+5. Click Remove Office.
+6. Click Yes to the prompt confirming that you want to 
+   remove.
+
+Access 2000 Shortcut on the Programs Menu Varies 
+According to Your Operating System 
+---------------------------------------------------------
+The Access 2000 shortcut on the Programs menu might have 
+the following problems: 
+
+1. It does not self-repair the program.
+ 
+   This problem occurs because your operating system does  
+   not support Windows Installer shortcuts. Only the 
+   following versions of Microsoft Windows support these 
+   shortcuts: 
+      * Windows 98
+      * Windows 95  with Internet Explorer 4.01, Service 
+        Pack 1 and Active Desktop installed
+      * Microsoft Windows NT version 4 with 
+        Internet Explorer 4.01, Service Pack 1, and 
+        Active Desktop installed. 
+   Note: If you install Internet Explorer 5 on a computer 
+   that has Windows 95 or Windows NT version 4 with 
+   Internet Explorer 4.01, Service Pack 1, and Active 
+   Desktop installed, it will still support Windows 
+   Installer shortcuts. 
+
+2. It does not install the program on first use. 
+
+   This problem occurs because Installed on First Use is  
+   not an option for Access in the Selecting Features 
+   dialog box during setup. Installed on First Use is not 
+   an option because your operating system does not 
+   support Windows Installer shortcuts. The operating 
+   systems listed under 1. support Windows Installer 
+   shortcuts. 
+
+3. It does not display a path on the Shortcut tab of the 
+   Properties dialog box for the shortcut. 
+
+   This indicates that the shortcut is a Windows   
+   Installer shortcut. Windows Installer shortcuts do not  
+   directly reference the path of the shortcut target. 
+   Instead, they contain a token that the Windows 
+   Installer resolves to the path of the shortcut 
+   target. The operating systems listed under item 1
+   support Windows Installer shortcuts.
+
+_________________________________________________________
+
+WORKING WITH ACCESS 2000
+
+Displaying Dates with Four-Digit Years 
+--------------------------------------
+In Access 2000, you can specify that date fields and 
+controls display four-digit years. This helps you to 
+ensure that the century of a particular date is correct. 
+ 
+On the General tab of the Options dialog box (Tools 
+menu), under Use Four-Digit Year Formatting, you can do 
+one of the following:
+*  Select the This Database check box to display four-
+   digit years at the database level (in the current 
+   Access database or Access project);
+*  Select the All Databases check box to display four-
+   digit years at the application level (in all Access 
+   databases and Access projects).
+Selecting one of these check boxes only changes how dates 
+are displayed--it does not change the data itself. These 
+options override Format property settings for individual 
+fields and controls.
+
+Euro Symbol Not Printed Correctly 
+---------------------------------
+Although the euro symbol might be displayed correctly in 
+Print Preview, it might not print correctly; for example, 
+it might not appear at all in the printout, or it might
+appear as another character. 
+
+This behavior can occur if you are using a printer font 
+that does not support the euro. To resolve this problem, 
+first try using a True Type font that does support the 
+euro, such as Arial, Courier New, or Times New Roman. If 
+the euro symbol still isn't printed correctly, change the 
+Spool Data Format for your printer from EMF to RAW. 
+
+>>> To change the Spool Data Format for your printer from 
+EMF to RAW:
+
+1. Click the Start button, point to Settings, and then 
+   click Printers.
+
+2. In the Printers dialog box, right-click your printer, 
+   and then click Properties.
+
+3. In the <Printer> Properties dialog box, click the 
+   Details tab, and then click Spool Settings.
+
+4. In the Spool Data Format box, change the setting from 
+   EMF to RAW.
+
+For more information, contact your printer vendor.
+
+Maximum Number of Levels of Nested Forms or Reports
+---------------------------------------------------
+The maximum number of nested forms or reports is seven.
+
+"Out of Memory" Message on Windows NT Server 4.0 or 
+Windows NT Workstation 4.0
+---------------------------------------------------------
+You might receive an "Out of Memory" message when you 
+attempt to save or close a large Access database or 
+Access project on Windows NT Workstation 4.0 or Windows 
+NT Server 4.0. To prevent this message, install Windows 
+NT 4.0 Service Pack 4. 
+
+Enclosing Controls or Using ToolTips in a Rectangle
+---------------------------------------------------
+In a form or data access page, if you enclose a control 
+or use a ToolTip in a rectangle, it might not be 
+displayed correctly. To ensure that the control or 
+ToolTip is displayed correctly, open the form or data 
+access page in Design view, click the rectangle, and then 
+click Send To Back on the Format menu.
+
+Using the Image Control in a Data Access Page
+---------------------------------------------
+In Access 2000, you cannot bind an image control in a 
+data access page to an OLE object field in an underlying 
+table. However, you can use an image control in a data 
+access page to display a different picture for each 
+record. In the table, create a Text field that contains 
+the URLs of the pictures. Then in the data access page 
+based on the table, add an unbound image control, and set 
+its ControlSource property to that field.
+
+Print Commands Unavailable When Data Access Page Is 
+Selected in Database Window
+---------------------------------------------------------
+When a data access page is selected in the Database 
+window, the Page Setup, Print Preview, and Print commands 
+on the File menu are unavailable. You might also receive 
+the following message when you try to use the PrintOut 
+action in a macro, or when you try to use PrintOut method 
+of the DoCmd object in a Visual Basic for Applications 
+(VBA) procedure: 
+   Run-time error '2046': The command or action 
+   'PrintOut' isn't available now.
+To use these commands, or to use the PrintOut action or 
+method, first make sure that the data access page is 
+open.
+
+"Undefined function" Message When Opening Data Access 
+Page
+--------------------------------------------------------
+In a data access page, if you use a function that is not 
+available outside of Access, you receive the following 
+message when you open the page in Microsoft Internet 
+Explorer 5:
+   Undefined function '<FunctionName>' in expression.
+For example, you receive this message if your data access 
+page is based on a query in which an expression contains 
+Nz, EuroConvert, Eval, or a user-defined function. You 
+also receive this message if you use a function that is 
+not available outside of Access in a control on a data 
+access page. The message does not appear when you open 
+the data access page in Access.
+
+Preventing Unauthorized Access from Scripts in Data 
+Access Pages
+---------------------------------------------------------
+You can provide security against scripts that run in a 
+data access page and attempt to access databases on 
+servers other than the one the page was downloaded from.  
+For more information, see "Creating Secure Data Access 
+Pages" (DAP Security.doc) and "Deploying Data Access 
+Pages on the Internet" (DAP Internet Deployment.doc) in 
+the Appendixes folder on the companion CD-ROM to the 
+Microsoft Office 2000/Visual Basic Programmer's Guide. 
+You can also obtain these documents on Microsoft's web 
+site at the Office Developer's Forum. You can find more 
+information in Chapter 18, "Securing Access Databases," 
+in the Microsoft Office 2000/Visual Basic Programmer's 
+Guide.  
+
+Color Palette in Data Access Pages When Display Is 
+Configured to Use 256 Colors
+---------------------------------------------------------
+Data access pages might not be displayed correctly on 
+computers where the Color Palette of the video display is 
+set to 256 Color or less. If you need to ensure that data 
+access pages appear correctly on 16-color or 256-color 
+video displays, limit the colors that you use to those 
+included in the Windows 16-color palette.
+
+      		R	G	B
+   Black		00	00	00
+   White		FF	FF	FF
+   Dark Gray	80	80	80
+   Light Gray	C0	C0	C0
+   Dark Red	      80	00	00
+   Red		FF	00	00
+   Mustard	      80	80	80
+   Yellow	      FF	FF	00
+   Dark Green	00	80	00
+   Light Green	00	FF	00
+   Teal		00	80	80
+   Light Blue	00	FF	FF
+   Dark Blue	00	00	80
+   Blue		00	00	FF
+   Purple	      80	00	80
+   Lavender	      FF	00	FF
+
+Problems When Using Taskbar Buttons To Navigate Between 
+Multiple Data Access Pages
+---------------------------------------------------------
+If you have installed the Active Desktop, and in Internet 
+Explorer you have cleared the check box to launch 
+browser windows in a separate process, you might 
+experience problems if you open multiple data access 
+pages and move between them by clicking their 
+corresponding taskbar buttons. For example, if you open 
+one data access page and you then open a second data 
+access page in another window, in some cases you might 
+not be able to navigate back to the first page until you 
+have closed the second page. To prevent this behavior, 
+start Internet Explorer, click Internet Options on the 
+Tools menu, and on the Advanced tab, select the check box 
+to launch browser windows in a separate process.  
+
+Display Problems When Scrolling Through the Employees 
+Form in Northwind
+---------------------------------------------------------
+In the Northwind sample database, the display might 
+flicker when you scroll through the records in the 
+Employees form. 
+
+>>> To prevent this problem: 
+
+1. In Windows Control Panel, double-click the Display 
+   icon, and then click the Settings tab.
+
+2. In the Color Palette box, click a setting with more 
+   than 256 colors.
+
+   NOTE: If your system does not support more than 256 
+   colors, you will not be able to select a higher 
+   setting.
+
+Using Northwind Sample Database Located on a Read-only 
+Share
+---------------------------------------------------------
+If you open a copy of the Northwind sample database that 
+is located on a read-only share, you might receive the 
+following message:
+   There were 5 errors fixing your data access page    
+   connections.  Some pages may not function as expected.
+When you first open the Northwind sample database, it 
+attempts to fix the connections of its data access pages. 
+This process checks the file attribute of Northwind. If 
+the attribute is read-only, the process cannot fix the 
+connections, and execution stops without error. However, 
+the fixup process does not check the permissions of the 
+network share where Northwind is located; if the share is 
+read-only, the connections cannot be fixed.  
+
+This behavior may occur in any database containing 
+similar code that fixes data access page connections. If 
+you are deploying Northwind or any database with a 
+similar fixup process on a read-only share, you can avoid 
+this problem by setting the file attribute of the 
+database to read-only. You can also prevent the fixup 
+process from running by pressing the SHIFT key while you 
+open the Northwind sample database. However, this might 
+mean that the data access pages will not function as 
+expected. 
+
+Obtaining Microsoft Office 2000 Proofing Tools
+----------------------------------------------
+Microsoft Office 2000 Proofing Tools is an add-in package 
+for Office 2000 that contains all the language tools 
+Microsoft makes for more than 30 languages. It can be 
+obtained from a licensed reseller. The part and SKU 
+numbers listed in Help are incorrect. See 
+http://www.microsoft.com/office for more information on 
+obtaining Office 2000 Proofing Tools. 
+
+WebBot Components Not in Office 2000 Developer
+----------------------------------------------
+Some topics in Help erroneously state that Microsoft 
+Office WebBot components and associated white papers are 
+available in Microsoft Office 2000 Developer. WebBot 
+components are not available in this release of Office 
+2000 Developer. 
+
+Colors May Not Display Correctly on 256-color Monitors
+-------------------------------------------------------
+After you view pop-up windows in Help topics, colors for 
+some elements may no longer display correctly on 256-
+color monitors. For example, the following elements may 
+appear differently on the screen after you view pop-up 
+windows:
+* Bitmaps
+* Pictures embedded in files
+* Office Assistant
+* Hyperlinks
+
+To fix the display problem, change the color palette for 
+your monitor.
+
+>>> To change the color palette:
+
+1. Click Start on the Windows taskbar, point to Settings, 
+   and then click Control Panel.
+
+2. Double-click the Display icon.
+
+3. On the Settings tab, select an option other than 256 
+   colors. Microsoft recommends that you choose more than 
+   256 colors, if such an option is available.
+_________________________________________________________
+
+MICROSOFT JET
+
+ANSI-92 Compliant SQL
+---------------------
+The Microsoft Jet 4.0 database engine supports two forms 
+of SQL syntax; one mode supports the same Jet SQL 
+commands used in previous versions of Access, and another 
+new mode supports new Jet SQL commands and syntax that 
+are more compliant with the ANSI SQL-92 standard. The 
+mode that supports the SQL commands used in previous 
+versions of Access is the only mode that is available 
+through the Access 2000 user interface. The newer SQL 
+syntax is currently available only in Visual Basic for 
+Applications (VBA) procedures that use ActiveX Data 
+Objects (ADO) and the Microsoft OLE DB provider for Jet 
+version 4.x. When you use the OLE DB provider for Jet 
+version 4.x through ADO, you can execute temporary 
+queries (i.e., queries that are not stored and are used 
+as part of a recordset's source by using 
+Connection.Execute or Command.Execute) or create stored 
+queries (by using the new CREATE VIEW, CREATE PROCEDURE 
+syntax).  
+
+Although you can use ADO and the OLE DB provider for Jet 
+4.x to access all stored queries created through the OLE 
+DB provider for Jet 4.x, they are not visible in the 
+Access user interface. For example, you cannot set the 
+RecordSource property of a form to a query created with 
+the Microsoft ActiveX Data Objects Extensions for DDL and 
+Security (ADOX) version 2.1 object library, and you 
+cannot import a query created with ADOX into another 
+database. However, you can still use ADO code to run 
+stored queries created by using ADOX.
+
+If you try to save a new query and receive a message that 
+the name you entered already exists for another object, 
+try using a different name. An ANSI-92 query with the 
+same name might already exist, but might not be visible 
+in the Objects list in the Database window. 
+
+For more information about ANSI-92 compliant SQL with the 
+Microsoft OLE DB Provider for Jet version 4.x, type 
+COMPARISON OF JET SQL AND ANSI SQL in the Office 
+Assistant or on the Answer Wizard tab in the Help window, 
+and then click Search. 
+
+COUNTER and IDENTITY 
+---------------------
+COUNTER and IDENTITY are Microsoft Jet SQL reserved 
+words, but they are not Jet SQL data types. For more 
+information about the Microsoft Jet data types, see the 
+Microsoft Jet Database Engine Programmer's Guide 
+published by Microsoft Press.
+_______________________________________________________
+
+CONVERSION AND COMPATIBILITY
+
+Compatibility Library
+----------------------
+Access 2000 does not ship with the DAO 2.5/3.x 
+compatibility library. If you attempt to convert an 
+Access database in which the code contains older versions 
+of DAO objects, methods, and properties that depend on 
+the DAO 2.5/3.x compatibility library, you might receive 
+a message that there were compilation errors during the 
+conversion of the database. If the DAO 2.5/3.x 
+compatibility library that shipped with a previous 
+version of Access still exists on your computer, you can 
+create a reference to it and then use it. However, before 
+you convert an Access database on a computer where the 
+DAO 2.5/3.x compatibility library does not exist, you 
+must update the code so that it does not depend on 
+that library. 
+
+Turning On Name AutoCorrect in a Converted Access 
+Database
+--------------------------------------------------------
+By default, Name AutoCorrect is not turned on in a 
+converted Access database. To turn on Name AutoCorrect, 
+click Options on the Tools menu, click the General tab, 
+and under Name AutoCorrect, select the appropriate check 
+boxes. Then open each table, query, form, and report in 
+Design view, save the object, and close it.
+
+For more information, type NAME AUTOCORRECT in the 
+Office Assistant or on the Answer Wizard tab in the Help 
+window, and then click Search, or see the Microsoft 
+Office Update Web site at 
+http://officeupdate.microsoft.com/default.htm.
+_________________________________________________________
+
+MICROSOFT ACCESS PROJECTS 
+
+Unexpected Behavior When SQL Statement Output Contains 
+Two Fields with Same Name
+---------------------------------------------------------
+In an Access project (*.adp), you might see unexpected 
+results when you use an SQL statement whose output 
+contains two or more fields with the same name. For 
+example, you might see unexpected behavior when you 
+work with a view that is based on two tables and that 
+contains two fields that have the same name but are 
+located in different tables. To prevent unexpected 
+behavior, specify an alias for one of the fields to 
+ensure that every field in the output has a unique name. 
+
+Can't Refer to Controls in Forms or Reports in Aggregate 
+Functions
+---------------------------------------------------------
+In an Access project, your aggregate functions cannot use 
+references to controls in objects such as forms or 
+reports. For example, you cannot use the following 
+expression:
+   =DLookUp("CategoryName";"Categories";"CategoryID =   
+      Reports!Report1!CategoryID")
+
+Rebooting Your Computer after Installing Microsoft Data 
+Engine (MSDE)
+--------------------------------------------------------
+To ensure that Microsoft Data Engine (MSDE) runs 
+correctly, you must reboot your computer after installing 
+MSDE. If you do not reboot your computer, you might see 
+unexpected behavior while using MSDE. For example, if you 
+attempt to create a new publication from an Access 
+project, you might receive a message that one of the 
+library files needed to run this application cannot be 
+found (error 1157). For more information about MSDE, type 
+WORK WITH A MICROSOFT ACCESS PROJECT in the Office 
+Assistant or on the Answer Wizard tab in the Help window, 
+and then click Search.
+
+"Order by clause may not be used in this query type" When 
+View Has TOP Clause
+---------------------------------------------------------
+When you save a view that contains a TOP clause and an 
+ORDER BY clause, you might receive the message "Order by 
+clause may not be used in this query type." However, when 
+you run the query, it returns the correct results and no 
+message appears.
+
+Incoming Named Pipe Connections Not Supported on Windows 
+95 or Windows 98
+---------------------------------------------------------
+You cannot connect to a remote Microsoft Data Engine 
+(MSDE) or SQL Server 7.0 Desktop database located on a 
+Windows 95 or Windows 98 computer unless you use a 
+protocol other than Named Pipes. These platforms do not 
+support incoming Named Pipe connections. To connect to 
+the database, run the Client Network Utility 
+Cliconfg.exe, which is located in the Windows\System 
+folder on the client computer; add a server alias that 
+specifies the remote server you need to connect to, and 
+select TCP/IP as the default network library. 
+
+Microsoft Data Engine Rules for Naming Identifiers
+--------------------------------------------------
+You might see unexpected behavior if you are using a 
+Microsoft Database Engine (MSDE) database whose name does 
+not conform to the following rules for identifiers:
+
+1. The first character must be one of the following:
+ 
+   A letter as defined by the Unicode Standard 2.0. The 
+   Unicode definition of letters includes Latin   
+   characters a-z and A-Z, in addition to letter 
+   characters from other languages. 
+
+   The _ (underscore), @ (at sign), or # (number sign) 
+   symbol. Certain symbols at the beginning of an 
+   identifier have special meaning in MSDE. An identifier 
+   beginning with @ denotes a local variable or 
+   parameter. An identifier beginning with # denotes a 
+   temporary table or procedure. An identifier beginning 
+   with double number signs (##) denotes a global 
+   temporary object. 
+
+   Some Transact-SQL functions have names that start with 
+   double at signs (@@). To avoid confusion with these 
+   functions, it is recommended that you do not use names 
+   that start with @@. 
+
+2. Subsequent characters can be: 
+
+   Letters as defined in the Unicode Standard 2.0. 
+
+   Decimal numbers from either Basic Latin or other  
+   national scripts. 
+
+   The @, $, #, or _ symbols. 
+
+   The identifier must not be a Transact-SQL reserved 
+   word. 
+
+   MSDE reserves both the uppercase and lowercase 
+   versions of reserved words. 
+
+3. Embedded spaces or special characters are not allowed. 
+_________________________________________________________
+
+OFFICE WEB COMPONENT ISSUES
+
+Editing a Formula in a Cell That Contains a Hyperlink
+-----------------------------------------------------
+The Help topic "Change a formula in a spreadsheet" 
+incorrectly states that if a cell you want to edit 
+contains a hyperlink, you should click a cell next to 
+that cell, use an arrow key to select the cell you want 
+to edit, and then click the cell once. Clicking the cell 
+once will take you to the page that the hyperlink links 
+to. Instead, once you have used an arrow key to select 
+the cell, press F2 to begin editing.
+
+ASC Worksheet Function Not Supported by the Spreadsheet 
+Component
+--------------------------------------------------------
+The Help topic "Microsoft Excel worksheet functions not 
+available in Web spreadsheet" does not list the ASC 
+worksheet function, but this function is not available in 
+spreadsheets published on the Web. If you publish a 
+worksheet that contains the ASC function, the function is 
+replaced with its resultant value.
+_________________________________________________________
+
+MICROSOFT ACCESS 2000 HELP
+
+This sections lists updates to Access Help.
+
+Topic: "Data Access Page Control Properties" 
+--------------------------------------------
+This topic contains links to further information about 
+data access page properties. Some of these links do not 
+work unless you have started Microsoft Script Editor at 
+least once on your machine. To start Microsoft Script 
+Editor, click HTML Source on the View menu. If this 
+feature has not yet been installed, you are prompted to 
+install it.
+
+Topic: "ProjectName Property"
+-----------------------------
+Replace the third paragraph with the following text:
+"You can set the ProjectName property by starting the 
+Microsoft Visual Basic Editor (VBE), clicking 
+<projectname> Properties on the Tools menu, clicking the 
+General tab, and typing a new name in the Project Name 
+box. You can also use the SetOption method in Visual 
+Basic. For example:"
+
+Topic: "Subforms: What they are and how they work" 
+--------------------------------------------------
+Replace the second sentence of the last paragraph 
+with the following text:
+"You can also nest up to seven levels of subforms."
+
+Topic: "Form and report specifications"
+---------------------------------------
+The maximum number of levels of nested forms or reports 
+should be 7.
+
+Topic: "Turn confirmation messages on or off" 
+--------------------------------------------- 
+Replace the last sentence with the following text:
+"Note    The Record changes and Action queries options do 
+not apply to data access pages."
+
+Topic: "Secure a database using the User-Level Security 
+Wizard" 
+-------------------------------------------------------- 
+Replace the second paragraph under "Notes" with the 
+following text:
+"If your current Access database protects Visual Basic 
+for Applications (VBA) code with a password, the wizard 
+will not run. You must first remove the password, and 
+then run the wizard."
+
+Topic: "Remove the placeholder text at the top of a data 
+access page"
+--------------------------------------------------------
+Replace step 2 with the following text:
+"Click here and type title text."
+
+Topic: "Display a title and other informational text on a 
+data access page"
+---------------------------------------------------------
+Replace step 2 with the following text:
+"To add a title or other text, click the placeholder 
+text labeled Click here and type title text."
+
+Topic: "FilterType Property"
+-----------------------------
+The constants "JrFltrTypeTable" and 
+"JrFltrTypeRelationship" should be replaced with 
+"JRFilterTypeTable" and "JRFilterTypeRelationship" 
+respectively.
+
+Topic: "SQL Reserved Words"
+---------------------------
+When you click COUNTER or IDENTITY, you jump to the topic 
+"SQL Data Types." COUNTER and IDENTITY are Microsoft Jet 
+SQL reserved words, but they are not Jet SQL data types. 
+
+Topic: "SQL Data Types"
+------------------------
+Under DATETIME in the Data type table, replace "(See 
+DOUBLE)" with "(See FLOAT)".
+
+Topic: "Microsoft Office 2000 Developer contents"
+-------------------------------------------------
+Under "Office Developer Tools CD-ROM," ignore the 
+following paragraph:
+"Microsoft Office WebBot Components, with which you 
+create 
+applets embedded inside Office 2000 documents. With the 
+user interface these applets provide, users don't need to 
+author script and Visual Basic for Applications code to 
+take advantage of DHTML features. WebBots are written in 
+Microsoft Script Editor."
+
+Topic: "View, refresh, or change the file name and 
+path for linked tables in a Microsoft Access database" 
+---------------------------------------------------------
+Under "To view or refresh links" and "To change the path 
+for a set of linked tables," change step 2 to the 
+following text:
+"On the Tools menu, point to Database Utilities, and then 
+click Linked Table Manager."
+
+Topic: "My code can't compile"
+-------------------------------
+Change the first sentence of the second paragraph to the 
+following text:
+"In the converted Access database, open a module in 
+Design view and click Compile <ProjectName> on the Debug 
+menu; by default, <ProjectName> is the name of the Access 
+database."
+
+Topic: "Considerations when sorting records in a table, 
+query, form, or report" 
+-------------------------------------------------------
+Change the last sentence to the following text:
+"You can't sort a field whose data type is OLE Object."
+
+Topic: "Hyperlink subaddress syntax"
+------------------------------------
+In the Microsoft Access section, replace the last 
+paragraph with the following text:
+"On a non-English system, Access recognizes only the 
+English-language string for the object type, and does not 
+recognize the string if it is in the local language. 
+Hyperlinks created by clicking Object In This Database in 
+the Insert Hyperlink or Edit Hyperlink dialog box always 
+have the English-language string for an object type."
+
+Topic: "OrderBy Property"
+-------------------------
+Ignore the second sentence, a note that states this 
+property is ignored in a Microsoft Access project.
+
+Topic: "Examples of expressions used on data access 
+pages"
+------------------------------------------------------
+When you click "Functions you can use in controls on data 
+access pages, and in the queries underlying them," the 
+topic "Functions Reference" appears. The following 
+functions, which appear on the list in this topic, are 
+not available outside of Access. If you use them in an 
+expression in a control on a data access page, or in an 
+expression in the underlying query of a data access page, 
+the page may not work correctly if you open it in 
+Microsoft Internet Explorer:
+
+CurDir
+DDEInitiate
+DDERequest
+DDESend
+EuroConvert
+Eval
+GUIDFromString
+HyperlinkPart
+Nz
+StringFromGUID
+
+The following functions are designed to be used in a 
+Visual Basic for Applications (VBA) procedure, or in a 
+Microsoft Excel worksheet. You cannot use them in an 
+expression in a control on a data access page, or in an 
+expression in the underlying query of a data access page:
+
+CreateObject
+CDec
+EOF
+FileAttr
+FreeFile
+DoEvents
+GetAllSettings
+GetObject
+InputBox
+IRR
+IsArray
+IsMissing
+LBound
+Loc
+LOF
+MIRR
+MsgBox
+NPV
+Spc
+Seek
+Tab
+UBound
+
+Topic: "What's installed with Microsoft Access 2000" 
+----------------------------------------------------
+Under "Installed (default)," add "Calendar Control" to 
+the "Feature" column; in the corresponding "Location in 
+the installation program" column, add the text "Microsoft 
+Access for Windows".
+
+Under "Installed on first use (default)," add "Northwind 
+SQL Project File" to the "Feature column; in the 
+corresponding "Location in the installation program" 
+column, add the text "Microsoft Access for Windows; 
+Sample Databases".
+
+Under "Not installed (custom installation only)":
+
+* Ignore "Calendar Control" in the "Feature" column and 
+  the corresponding text "Microsoft Access for Windows" 
+  in the "Location in the installation program" column. 
+
+* Ignore "Northwind SQL Project File" in the "Feature" 
+  column and the corresponding text "Microsoft Access for 
+  Windows; Sample Databases" in the "Location in the 
+  installation program" column. 
+
+* Ignore the last paragraph containing the note about the 
+  Calendar Control and the Northwind SQL Project File.
+
+Topic: "Set Options from Visual Basic"
+--------------------------------------
+Under "View Tab":
+
+* In the "Option text" column, replace "Use taskbar for 
+  each document" with "Windows in Taskbar"; in the 
+  corresponding "String argument" column, replace "Use 
+  Taskbar For Each Document" with "ShowWindowsInTaskbar".
+
+Under "General Tab," in the "Option text" column:
+
+* Replace "Compact current database" with "Compact On 
+  Close".
+
+* Add the text "Use four-digit year formatting in this 
+  database"; in the corresponding "String argument" 
+  column, add the text "Four-Digit Year Formatting".
+
+* Add the text "Use four-digit year formatting in all 
+  databases"; in the corresponding "String argument" 
+  column, add the text "Four-Digit Year Formatting All 
+  Databases".
+
+Under "Advanced Tab (MDB ONLY)":
+
+* In the "Option text" column, replace "Use Record Level 
+  Locking" with "Open databases using record-level 
+  locking".
+
+* In the "String argument" column, replace "Use Record 
+  Level Locking" with "Use Row Level Locking".
+
+Topic: "Work with euro currency symbols"
+----------------------------------------
+In the table under "Typing the euro currency symbol":
+
+* Replace the text in the "On" columns that corresponds 
+  with "ALT+0128 (numeric pad)" with the following text:
+  "Arabic, Hebrew, Turkish, and United States 101 
+  keyboards".
+
+* Replace the text in the "On" columns that corresponds 
+  with "ALTGR+E" with the following text:
+  "Belgian, Belgian Dutch 120, Croatian, Czech, Czech 
+  101, Czech Programmer's, Danish, Dutch KBD143,  
+  Estonian, Faroese, Finnish, French, German (IBM), 
+  German (Standard), Icelandic, Italian, Italian 142, 
+  Latvian, Lithuanian, Lithuanian (New), Macedonian 
+  (Cyrillic), Norwegian, Portuguese-KBD163, Serbian 
+  (Cyrillic), Serbian (Latin), Slovak, Slovak-QWERTY, 
+  Slovenian, Spanish, Swedish, Swiss French, Swiss 
+  German, Turkish F 440, and Turkish Q 179 keyboards"
+
+* In the "Press" column, add "ALTGR+4" and in the 
+  corresponding "On" column, add the following text:
+  "Irish, Latvian-QWERTY, and United Kingdom keyboards"
+
+* In the "Press" column, add "ALTGR+U" and in the 
+  corresponding "On" column, add the following text:
+  "Hungarian, Hungarian 101, Polish, and Polish 
+  Programmer's keyboards"
+
+In the table under "Displaying values with the euro 
+sign," under "Operating system": 
+
+* Ignore "Microsoft Windows 95, Windows 98" and the 
+  corresponding text in the "Fonts" column.
+
+* Ignore "Microsoft Windows NT or Windows 2000" and the 
+  corresponding text in the "Fonts" column.
+
+* Add "Microsoft Windows 95 with the euro product update" 
+  and in the corresponding "Fonts" column, add the 
+  following text:
+  "Arial Black, Arial, Comic Sans (regular and bold), 
+  Courier New, Impact, MS Sans Serif, Tahoma (regular and 
+  bold), Times New Roman, Verdana"
+
+* Add "Microsoft Windows 98" and in the corresponding 
+  "Fonts" column, add the following text:
+  "Arial, Courier New, Tahoma (regular and bold), Times 
+   New Roman"
+
+* Add "Microsoft Windows NT 4.0 with Service Pack 3 and 
+  the euro product update" and in the corresponding 
+  "Fonts" column, add the following text:
+  "Arial, Courier New, Times New Roman"
+
+* Add "Microsoft Windows NT 4.0 with Service Pack 4" and 
+  in the corresponding "Fonts" column, add the following 
+  text:
+  "Arial, Courier New, Lucida Console, Lucida Sans 
+  Unicode, Times New Roman"
+
+Correct Procedure for Starting Microsoft NetMeeting
+----------------------------------------------------
+The following Help topics contain incorrect information 
+about how to start Microsoft NetMeeting:
+   * Start an Impromptu Online Meeting
+   * About Online Meetings
+   * Start NetMeeting
+
+>>> To start NetMeeting:
+* On the Start menu in Windows, point to Programs, 
+  Accessories, Communications, and then click NetMeeting.
+_________________________________________________________
+
+MICROSOFT VISUAL BASIC FOR APPLICATIONS
+
+Additional Information about Data Access Components
+---------------------------------------------------
+For more information about Microsoft Data Access Objects 
+(DAO) version 3.6, see Daoread.txt. The default location 
+of this file is:
+
+   C:\Program Files\Common Files\Microsoft Shared\DAO
+
+For more information about Microsoft Jet and Replication 
+Objects (JRO), Microsoft ActiveX Data Objects (ADO), and 
+Microsoft ActiveX Data Objects Extensions for DDL and 
+Security (ADOX), see JROReadme.txt, ADOReadme.txt, and 
+ADOXReadme.txt. The default location of these files is:
+
+   C:\Program Files\Common Files\System\Ado
+
+Functions Broken Because Of vbDatabaseCompare
+---------------------------------------------
+The InStrRev, Split, Filter, and Replace functions may 
+fail because of errors resulting from the use of 
+vbDatabaseCompare. The workaround is to explicitly 
+specify a comparison argument, for example, 
+vbBinaryCompare or vbTextCompare.
+
+DataAccessPage Object, DataAccessPages Collection Code 
+Example
+---------------------------------------------------------
+In the second example, the line 
+
+   Dim Dap As DataAccessPage 
+
+should be replaced with the line 
+
+   Dim Dap As AccessObject
+
+Context Property (CommandBar Object)
+------------------------------------
+This property returns an empty string and is otherwise 
+unsupported.
+
+Chart Workspace Object Model (Office Web Components)
+----------------------------------------------------
+The diagram for the Chart Workspace object model is 
+incorrect. The WCPlotArea, WCScaling, and 
+WCSeriesCollection objects and all their associated 
+objects should appear under the WCCharts object, not the 
+ChartSpace object as shown in the documentation. Also, 
+the WCCharts object should also contain a WCTitle object.
+
+SelectionChange Event (Office Web Components)
+---------------------------------------------
+In the SelectionChange event handler for the Spreadsheet 
+component, all properties of the SpreadsheetEventInfo 
+object are invalid for this event with the exception of 
+the Range property.
+
+GetValue Method (Office Web Components)
+---------------------------------------
+The Dimension argument can also be either 
+chErrorBarPlusValues or chErrorBarMinusValues for 
+returning values for custom WCErrorBars objects.
+
+HTMLData Property (Office Web Components)
+-----------------------------------------
+This property is read/write for Spreadsheet objects and 
+read-only for Range objects.
+
+KeyChar Property (Office Web Components)
+----------------------------------------
+The KeyChar property returns an empty string for the 
+KeyDown and KeyUp events.
+
+RecordsetLabel Property (Office Web Components)
+-----------------------------------------------
+The RecordsetLabel property of the 
+RecordNavigationControl object is parsed for specific 
+information to use when displaying the label. For 
+example, the tags |0, |1, and |2 are replaced with record 
+numbers when displayed. If the RecordsetLabel property 
+equals the string "Categories |0 of |2;Categories |0-|1 
+of |2", a label for a banded page might read "Categories 
+1-5 of 8", and a label for an unbanded page might read 
+"Categories 1 of 8".
+
+Value Property (Office Web Components)
+--------------------------------------
+The Remarks section for the Value property states that if 
+the specified range contains more than one cell, this 
+property returns an array containing the values for all 
+the cells. This is incorrect: The property only returns 
+the value of the active cell in the range.
+
+Default Language for Visual Basic Editor and Microsoft 
+Script Editor
+---------------------------------------------------------
+The Visual Basic Editor and Microsoft Script Editor 
+default to English if the current system code page does 
+not support the user interface language.
+
+New Properties (VBA)
+--------------------
+The following are new properties that apply to class 
+modules in standalone projects:
+
+* Instancing Property
+
+  Sets a value that specifies whether you can create 
+  instances of a public class outside a project, and if 
+  so, how they will behave. Not available at run time.
+
+  Settings
+
+  The Instancing property has these settings:
+
+  Setting    Description
+
+  1          Private (default). Other applications are  
+             not allowed access to type library 
+             information about the class and cannot 
+             create instances of it. Private objects are 
+             only for use within your component. The 
+             Instancing property default varies depending 
+             on the project type. Private is the default 
+             only for class modules in standalone 
+             projects.
+
+  2          PublicNotCreatable. Other applications can 
+             use objects of this class only if your 
+             component creates the objects first. Other 
+             applications cannot use the CreateObject 
+             function or the New operator to create 
+             objects from the class.
+
+* Name Property
+
+  Returns the name used in code to identify a class. 
+  Read-only at run time.
+
+  Syntax
+
+  object.Name
+
+  The object placeholder represents an object expression 
+  that evaluates to a class.
+
+  Remarks
+
+  An object's Name property must start with a letter and 
+  can be a maximum of 40 characters long. It can include 
+  numbers and underline (_) characters but can't include 
+  punctuation or spaces. Although the Name property 
+  setting can be a keyword, property name, or the name of 
+  another object, this can create conflicts in your code.
+
+Use F3 to Find Next Text Occurrence in the Code Window
+------------------------------------------------------
+Press F3 to find the next occurrence of previously 
+specified search text in the code window, not SHIFT+F4 as 
+stated in the documentation.
+
+System Event Notification System
+--------------------------------
+For programmers writing to the System Event Notification 
+System (SENS) and the IEventSubscription and IEventSystem 
+interfaces, please see the documentation for these 
+interfaces at MSDN Online (http://msdn.microsoft.com) or 
+a version of the Platform SDK later than that which 
+shipped with the April MSDN.
+
+HTML Reference Documentation
+----------------------------
+The latest HTML, DHTML, and CSS documentation is 
+available online from MSDN Online at 
+http://msdn.microsoft.com.
+
+Internet Explorer Versions and Editing HTML
+-------------------------------------------
+Selection works differently in Microsoft Script Editor 
+for sited elements depending on what version of Internet 
+Explorer you have installed. A sited element is any 
+element that has a height or width, such as BUTTON. 
+
+With Internet Explorer 4.01, selection for sited elements 
+works as follows:
+
+- The first click on an element allows you to edit the 
+text within the element.
+- The second click on an element selects the element.
+- Double-clicking an element selects the text block 
+within the element.
+
+With Internet Explorer 5.0, selection for sited elements 
+works as follows:
+
+- The first click on an element selects the element.
+- The second click on an element allows you to edit the 
+text within the element.
+- Double-clicking the element brings up the source code 
+for the element.
+
+Note: Selection for tables in Internet Explorer 5.0 is 
+the same as it was in Internet Explorer 4.01.
+
+Also, Internet Explorer 5.0 preserves white space better 
+than Internet Explorer 4.01 when switching between views 
+in the editor.
+
+"Topic Not Found" Topic (Microsoft Script Editor)
+-------------------------------------------------
+You do not need the MSDN Library or MSDN Library CD to 
+view help topics for Microsoft Script Editor. If you 
+encounter the "Topic Not Found" topic, try one of the 
+following:
+
+- Reinstall Microsoft Script Editor from the Microsoft 
+Office setup.
+- Insert the Microsoft Office CD into the CD-ROM drive.
+
+"Property cannot be set" When Changing ControlSource on 
+Data Access Page
+---------------------------------------------------------
+If you have code in your data access page that attempts 
+to change the ControlSource property of a control, you 
+might receive the following message:
+   Run-time error '26072': Property cannot be set in this 
+   mode.
+You can only change the ControlSource property with 
+inline code at page load time. 
+_________________________________________________________
+
+MULTILINGUAL ISSUES
+
+General
+-------
+
+Code Page of Client Machine Must Match Code Page of 
+Server
+---------------------------------------------------------
+For SQL Server international applications, you may see 
+unexpected behavior if the system code page of client 
+machines doesn't match the character set of Microsoft SQL 
+Server on the server. On the client, the system code page 
+is the character set that is used by the language 
+specified in operating system; if you are running Windows 
+NT Workstation 4.0 or Windows NT Server 4.0, this is the 
+Default Locale. On the server, the character set is 
+specified during SQL Server installation.  
+
+In an Access project (*.adp), result sets containing ANSI 
+text fields are not displayed correctly if the system 
+code page of the client computer does not match the 
+character set of the SQL Server to which the client is 
+connected. This problem does not occur for data that is 
+stored as Unicode on the server. 
+ 
+Create Registry Keys To Temporarily Enforce a Code Page 
+During Conversion
+---------------------------------------------------------
+Access normally uses the code page of the operating 
+system to convert previous-version databases to Access 
+2000. If you are converting an Access database in which 
+the code page is different from that of the operating 
+system on your computer, create a ForceCP entry in the 
+Windows Registry. 
+
+The ForceCP registry entry temporarily enforces the code 
+page that corresponds to the language you are using. The 
+code page is the character set that is used by the 
+language specified in the Regional Settings of the 
+operating system. You might need to create a ForceCP 
+registry entry if you don't have the necessary language 
+version of the operating system, or if the database is in 
+a language for which the previous version of Access had 
+no sort order support. For example, previous versions of 
+Access did not support a sort order for Vietnamese, 
+Farsi, or a Baltic languages (Estonian, Latvian, or 
+Lithuanian); therefore, the sort order for databases in 
+these languages was General. The ForceCP registry entry 
+allows non-Western data in your tables to be converted 
+correctly. WARNING: The ForceCP registry entry affects 
+only tables and queries; non-Western characters in forms, 
+reports, macros, and modules might not be converted 
+correctly if the code page of the Access database doesn't 
+match the code page specified by the operating system. 
+
+The full subkey you should add will be one of the 
+following:
+
+	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Jet\4.0
+         \Engines\Jet3.x\ForceCP
+	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Jet\4.0
+         \Engines\Jet2.x\ForceCP
+
+If you are converting a database that was created in 
+Access 95 or later, create the new string value in the 
+Jet3.x subkey with the name; if you are converting a 
+database that was created in Access 2.0 or earlier, 
+create the new string value in the Jet2.x subkey. In 
+either case, the name of the entry is "ForceCP"; the 
+value is the number of the code page that you want to 
+use. For example, the number of the code page for Windows 
+Baltic Rim is 1257.
+
+To allow the registry entry to take effect, quit 
+Access and restart it. After you have converted the 
+Access database, delete the registry entry so that 
+Access can resume its normal mode of operation.
+
+For a more information about customizing Windows Registry 
+settings for Microsoft Jet, type CUSTOMIZE WINDOWS 
+REGISTRY SETTINGS in the Office Assistant or on the 
+Answer Wizard tab in the Help window, and then click 
+Search.
+ 
+Error Messages Appear in Wrong Language When Using 
+Language Pack
+---------------------------------------------------------
+If you are using the Office 2000 Language Pack, error 
+messages might appear in the wrong language. To ensure 
+that error messages appear in the appropriate language, 
+first back up the U.S. versions of the files Msjint40.dll 
+and Mswstr10.dll that are located in your \Windows\System 
+folder. Then copy the localized versions of the files to 
+your \Windows\System folder.
+
+You can find localized versions of these files on the 
+Language Pack CD in the following folder:	
+
+	\Extras\Jet\<language>
+
+where <language> is the three-letter abbreviation for the 
+language that you are using.
+
+Key Assignment Macros in AutoKeys Macro Group No Longer 
+Work
+---------------------------------------------------------
+If you convert an Access database that was created in 
+German, Spanish, Brazilian, or Portuguese versions of 
+Access, key assignment macros in the AutoKeys macro group 
+might no longer work. In Access 2000, change the name of 
+the AutoKeys macro group to the English word "AutoKeys" 
+to enable the key assignment macros. This permits the key 
+assignment macros in your database to work as expected in 
+any language version of Access 2000.  
+
+Message "Database 'msdb' cannot be opened"
+------------------------------------------
+You might receive the message "Database 'msdb' cannot be 
+opened" when using database utilities, database security, 
+or replication in an Access project that is connected to 
+a Microsoft Data Engine (MSDE) database. This message 
+might occur if you selected a character set besides the 
+default 1252/ISO character set in the Character Set/Sort 
+Order/Unicode Collation dialog box during MSDE 
+installation, and you also accepted the other default 
+settings. The default locale identifier is General 
+Unicode, the Case-sensitive, Width-insensitive and Kana-
+insensitive check boxes are selected by default. 
+
+>>> To correct the problem with the msdb database:
+
+1. Click the Start button, point to Programs, point to 
+   MSDE, and click Service Manager.
+
+2. Stop the MSDE service. 
+
+3. Click the Start button, point to Programs, and then 
+   click MS-DOS Prompt.
+
+4. Change to the \Binn directory of MSDE; by default,
+   this directory is C:\MSSQL7\Binn.
+
+5. Type the following in the case shown:
+
+      sqlservr -c -T1806
+
+6. Repeat steps 3 and 4.
+
+7. In the second MS-DOS Prompt window, type the 
+   following in the case shown:
+
+      osql -Usa -P
+      use msdb
+      checkpoint
+      go
+      shutdown
+      go
+
+   Note that the checkpoint command generates a warning 
+   that the sort order in the database differs from the 
+   server sort order.
+
+8. Close the MS-DOS Prompt windows, and restart the MSDE 
+   service.
+
+Cannot Log On As "Administrator" When Modifying Page 
+Connection String
+---------------------------------------------------------
+In non-English versions of Access, if you attempt to 
+establish a connection between a database and a data 
+access page, and you log on to the database with the user 
+name "Administrator," you receive the message "Not a 
+valid account name or password." To modify the connection 
+string of a data access page, use the English word 
+"Admin" as the logon name.
+
+Non-U.S., Non-East Asian: Northwind SQL Project Not 
+Advertised in the User Interface
+---------------------------------------------------------
+In non-U.S. English and non-East Asian versions of 
+Access, the Northwind SQL Project File is not advertised 
+in the user interface. You must run the Office 2000 
+installation program or Access 2000 installation program, 
+and change the installation setting of the Northwind SQL 
+Project File from "Installed on First Use" to "Run from 
+My Computer."
+
+Hyperlink to Database Object Doesn't Work with Object 
+Type Name in Local Language
+---------------------------------------------------------
+If you click a hyperlink whose subaddress specifies a 
+database object, you might receive a message that Access 
+is not able to follow the hyperlink. This problem occurs 
+if the object type string is in the local language 
+instead of in English. For example, you might receive the 
+message if the subaddress is "#LocalizedReportString 
+<ReportName>" instead of the English string "#Report 
+<ReportName>". When you create a hyperlink that points to 
+a database object, you can prevent this message by 
+clicking Object in This Database in the Insert Hyperlink 
+or Edit Hyperlink dialog box. When you select an object 
+from the list of objects in the database, Access 
+automatically creates a hyperlink whose object type 
+string is in English.
+
+Right-to-Left Languages
+-----------------------
+
+Printing in Right-to-Left Languages
+-----------------------------------
+Certain printers will require updated printer drivers. 
+Please contact your printer manufacturer if you encounter 
+problems printing.
+
+Expression Builder Limitations for Right-to-Left 
+Languages
+---------------------------------------------------------
+You can enter and edit expressions directly in the 
+Properties window of controls or you can use the 
+Expression Builder. If you have mixed right-to-left and 
+Latin text in your expressions, use the Properties 
+window. If you use the Expression Builder, your mixed-
+text expressions will be correctly transferred to the 
+Properties window, but the appearance of mixed text might 
+be confusing.
+
+Hijri Database Calendar in Sample Applications
+----------------------------------------------
+Sample applications such as the Northwind database expect 
+the database calendar to be Gregorian.  Because the 
+sample application contains hard-coded date constants 
+that are not valid Hijri dates, running the sample 
+application with the database calendar set to Hijri 
+(Tools.Startup.Use Hijri Calendar) is not recommended.
+
+Input Mask Restrictions for Right-to-Left Languages
+---------------------------------------------------
+Input masks that you create for data entry will operate 
+as expected only when Latin text and numbers are entered.  
+Right-to-left text entered in a field with an input mask 
+will produce undesirable masked input behavior.
+
+Hijri Calendar Support in Data Access Pages and Web Pages
+---------------------------------------------------------
+All data-bound controls on data access pages and Web 
+pages can display date values in Gregorian calendar 
+format. Date display in Hijri calendar format is also 
+possible if certain controls are used. 
+
+* Office Web Controls (WebCalc, PivotList and WebChart) 
+  support date display in Hijri calendar format. The 
+  calendar used for date display is determined by the 
+  Calendar Type setting on the Date tab of the Regional 
+  Settings Properties dialog box (available through 
+  Windows Control Panel).
+
+* Most other controls used for data binding, such as the 
+  intrinsic textbox and label controls of Internet 
+  Explorer 5, display date values only in Gregorian 
+  calendar format.
+
+Viewing Arabic Data in Microsoft Replication Conflict 
+Viewer and Import/Export Wizards
+---------------------------------------------------------
+To view sample information and certain other Arabic data 
+correctly when running the Microsoft Replication Conflict 
+Viewer and the Import/Export Wizards, the locale setting 
+on the Regional Settings tab of the Regional Settings 
+dialog box (available through the Windows Control Panel) 
+must be Arabic (Saudi Arabia). 
+
+East Asian Languages
+--------------------
+
+Possible Display Problems When Using Multiple Asian Fonts
+---------------------------------------------------------
+If you install multiple Asian fonts on non-Asian versions 
+of Microsoft Windows NT Server 4.0 or Microsoft Windows 
+NT Workstation 4.0, you might experience display 
+problems, such as very large text, blank text, or very 
+large blank areas occurring in Access 2000 or in Windows 
+NT. This is a known problem in Windows NT version 4.0 
+Service Pack 4 that will be fixed in an upcoming Service 
+Pack release for Windows NT version 4.0.
+

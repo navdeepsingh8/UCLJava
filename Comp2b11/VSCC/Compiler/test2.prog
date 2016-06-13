@@ -1,0 +1,20 @@
+
+{
+
+print("\nTest 2.1 ");
+if (3 < 6 - 1) print("okay"); else print("fails");
+
+print("\nTest 2.2 ");
+if (1 + 2 < 3) print("fails"); else print("okay");
+
+for (i = 0; i < 0; i++) print("\nfor-loop fails");
+
+if (1) print(""); else print("\nif-else fails");
+
+print("\nTest 2.3 ");
+if (this <is <wrong) print("this statement should not have compiled");
+
+--x;
+
+}
+

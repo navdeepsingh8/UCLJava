@@ -1,0 +1,77 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "timetable"
+JDKPROFILE := ""
+ACTIVE := "1"
+OUTPUTPATH := ".\\"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "" RUNAPPLET := "" PARAM := "" RUN := "" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFolder]
+LABEL := "testing"
+FILTER := ""
+
+#[BeginFile]SOURCE := "testing\\URLDataStructureTest.java" #[EndFile]
+#[BeginFile]SOURCE := "testing\\URL_LexerTest.java" #[EndFile]
+#[BeginFile]SOURCE := "testing\\TimeTableDataStructureTest.java" #[EndFile]
+#[BeginFile]SOURCE := "testing\\TestAll.java" #[EndFile]
+#[BeginFile]SOURCE := "testing\\Table_LexerTest.java" #[EndFile]
+#[BeginFile]SOURCE := "testing\\SourceReaderTest.java" #[EndFile]
+#[BeginFile]SOURCE := "testing\\g5699.html" #[EndFile]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "jsp"
+FILTER := ""
+
+#[BeginFile]SOURCE := "D:\\jakarta-tomcat-4.0.3\\webapps\\ROOT\\list.jsp" #[EndFile]
+#[BeginFile]SOURCE := "D:\\jakarta-tomcat-4.0.3\\webapps\\ROOT\\lecture.jsp" #[EndFile]
+#[BeginFile]SOURCE := "D:\\jakarta-tomcat-4.0.3\\webapps\\ROOT\\index.jsp" #[EndFile]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "parser"
+FILTER := ""
+
+#[BeginFile]SOURCE := "parser\\SourceReader.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\Interface.java" #[EndFile]
+#[BeginFolder]
+LABEL := "table"
+FILTER := ""
+
+#[BeginFile]SOURCE := "parser\\table\\TokenIF.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\table\\Token.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\table\\SymbolTable.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\table\\Lexer.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\table\\Parser.java" #[EndFile]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "url"
+FILTER := ""
+
+#[BeginFile]SOURCE := "parser\\url\\TokenIF.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\url\\Token.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\url\\SymbolTable.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\url\\Lexer.java" #[EndFile]
+#[BeginFile]SOURCE := "parser\\url\\Parser.java" #[EndFile]
+#[EndFolder]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "manager"
+FILTER := ""
+
+#[BeginFile]SOURCE := "manager\\ServletUtilities.java" #[EndFile]
+#[BeginFile]SOURCE := "manager\\URLDataStructureIF.java" #[EndFile]
+#[BeginFile]SOURCE := "manager\\URLDataStructure.java" #[EndFile]
+#[BeginFile]SOURCE := "manager\\TimeTableDataStructure.java" #[EndFile]
+#[BeginFile]SOURCE := "manager\\TimeTableDataStructureIF.java" #[EndFile]
+#[EndFolder]
+#[EndFolder]

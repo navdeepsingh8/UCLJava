@@ -1,0 +1,18 @@
+
+Test 2.1 okay
+Test 2.2 okay
+Test 2.3 
+
+End of program reached at 102
+
+Stack pointer 1
+
+Contents of stack: (top of stack first)
+     0
+
+
+Symbol Table Contents
+     Name    Value
+         i      0
+      this      0
+        is      0

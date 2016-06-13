@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project name="memoapp" default="test" basedir="." >
+
+  <property name="src.dir" location="src"/>
+
+  <property name="build.dir" location="build"/>
+  <property name="build.tests.data.dir" location="${build.dir}/data"/>
+  <property name="build.tests.reports.dir" location="${build.dir}/reports"/>
+
+  <property name="libs.dir" location="lib"/>
+
+  <path id="app.classpath">
+    <pathelement location="${build.dir}"/>
+    <fileset dir="${libs.dir}">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+  </target>
+
+  <target name="init">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${build.tests.data.dir}"/>
+    <mkdir dir="${build.tests.reports.dir}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac srcdir="${src.dir}" destdir="${build.dir}">
+      <classpath refid="app.classpath"/>
+    </javac>
+  </target>
+
+  <target name="test" depends="compile" description="Build and run all tests">
+    <junit printSummary="false" errorProperty="test.failed" failureProperty="test.failed">
+      <classpath refid="app.classpath"/>
+      <formatter type="brief" usefile="false"/>
+      <formatter type="xml"/>
+      <batchtest todir="${build.tests.data.dir}">
+        <fileset dir="${build.dir}">
+          <include name="**/*Test.class"/>
+          <exclude name="**/Test*.class"/>
+        </fileset>
+      </batchtest>
+    </junit>
+    <junitreport todir="${build.tests.data.dir}">
+      <fileset dir="${build.tests.data.dir}">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report format="frames" todir="${build.tests.reports.dir}"/>
+    </junitreport>
+    <fail message="Tests failed. Check reports" if="test.failed"/>
+  </target>
+
+  <target name="run">
+    <java classname="MemoApp" fork="yes">
+      <classpath>
+        <pathelement path="${build.dir}"/>
+      </classpath>
+    </java>
+  </target>
+
+</project>

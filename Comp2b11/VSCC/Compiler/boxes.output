@@ -1,0 +1,30 @@
+
+Enter size of box > 
+#.
+.#
+
+Enter size of box > 
+.#.
+#.#
+.#.
+
+Enter size of box > 
+.#.#.
+#.#.#
+.#.#.
+#.#.#
+.#.#.
+
+Enter size of box > 
+
+
+End of program reached at 109
+
+Stack pointer 0
+
+
+Symbol Table Contents
+     Name    Value
+         n      0
+         i      0
+         m      0

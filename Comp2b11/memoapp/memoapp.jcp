@@ -1,0 +1,52 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "memoapp"
+JDKPROFILE := ""
+ACTIVE := "1"
+OUTPUTPATH := "\\classes"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "<Default>" RUNAPPLET := "<Default>" RUNDEBUG := "<Default>" PARAM := "" RUN := "MemoApp" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\src\\AllTests.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Memo.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoApp.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoList.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditor.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorBackwardTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorEmptyTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorForwardTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorInitialisationTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorReadEmptyFileTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorReadFileTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEditorWriteFileTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListEmptyTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListException.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListTestCase.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListView.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListWithOneMemoTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListWithTwoMemosTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoListWriter.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\MemoTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SwingMemoListView.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SwingMemoListViewBackwardTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SwingMemoListViewForwardTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SwingMemoListViewInitialisationTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SwingMemoListViewLoadTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SwingMemoListViewSaveTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\XMLMemoListReader.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\XMLMemoListReaderEmptyTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\XMLMemoListReaderTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\XMLMemoListWriter.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\XMLMemoListWriterEmptyTest.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\XMLMemoListWriterTest.java" #[EndFile]
+#[EndFolder]

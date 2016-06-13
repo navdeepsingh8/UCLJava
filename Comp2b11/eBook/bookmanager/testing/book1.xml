@@ -1,0 +1,15 @@
+<xml>
+<book>
+<title>Book Title</title>
+<author>The Author</author>
+<part>
+<title>Part One</title>
+<chapter>
+<chapnum>Chapter One</chapnum>
+<title>The Beginning</title>
+<para>This is the first paragraph</para>
+<para>The second...</para>
+</chapter>
+</part>
+</book>
+</xml>

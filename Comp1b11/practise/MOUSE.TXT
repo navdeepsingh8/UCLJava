@@ -1,0 +1,191 @@
+---------------------------------------
+       Microsoft Windows 98 Second Edition
+           README for Pointing Devices
+                  April 1999           
+---------------------------------------
+
+(c) Copyright Microsoft Corporation, 1999
+
+
+This document provides complementary or late-breaking 
+information to supplement the Microsoft Windows 98
+Second Edition documentation.
+
+------------------------
+HOW TO USE THIS DOCUMENT
+------------------------
+
+To view Mouse.txt on-screen in Notepad, maximize the 
+Notepad window.
+
+To print Mouse.txt, open it in Notepad or another word 
+processor, and then on the File menu, click Print.
+
+
+--------
+CONTENTS
+--------
+
+WINDOWS DRIVER LIBRARY (WDL)
+
+LOGITECH MOUSE
+
+MOUSE SYSTEMS/GENIUS
+
+MICROSOFT NATURAL KEYBOARDS
+
+MICROSOFT INTELLIPOINT 1.00
+
+MICROSOFT BALLPOINT MOUSE
+
+----------------------------------
+
+
+NOTE: The information contained in this text file
+pertains to PS/2 and serial input devices only.
+
+
+WINDOWS DRIVER LIBRARY (WDL)
+============================
+
+Windows 98 Second Edition includes drivers for most 
+mouse device types.
+
+>>>To obtain additional or updated drivers from the Windows 
+   Driver Library (WDL):
+
+1. If you do not have access to a modem, call Microsoft Technical 
+   Support and request a floppy disk that contains the drivers you 
+   want. Then go to step 3.
+    
+   If you have a modem, download the drivers from one of the 
+   following online services to a floppy disk.  
+
+   Service                            Location of drivers
+   -------                            -------------------
+   The Microsoft Network              Windows 98 area
+   Worldwide Web                      http://www.microsoft.com
+   Gopher                             gopher://gopher.microsoft.com
+   FTP                                ftp://ftp.microsoft.com
+   Microsoft Download Service (MSDL)  In the United States and Canada, 
+				      call (425) 936-6735. Outside 
+                                      the U.S., contact your local
+                                      Microsoft subsidiary.
+  
+2. In My Computer, double-click the icon for the floppy disk drive 
+   that contains the file you downloaded, and then double-click the 
+   file itself. This extracts the driver.
+
+3. Click Start, point to Settings, and then click Control 
+   Panel.
+
+4. Double-click Mouse, click General, and then click Change. 
+
+5. Click Browse, and then locate the file you extracted in step 2. 
+
+6. In the Open dialog box, click OK, and then click OK again.
+
+NOTE: The drivers are available at no charge; however, standard
+connect-time fees and long-distance telephone charges, if 
+any, apply.
+
+
+LOGITECH MOUSE
+==============
+
+The Windows 98 Logitech driver supports Logitech 
+MouseWare version 7.2 and later. All the features of 
+MouseWare, including the programmability of the mouse 
+buttons, work well with the new Windows 98 driver.
+
+If your version of MouseWare is earlier than 7.2, use 
+the Windows 98 Device Manager to change the mouse type.
+
+>>> To change the mouse type:
+
+1. Click Start, point to Settings, and then click 
+   Control Panel.
+
+2. Double-click System, and then click Device Manager.
+
+3. Click the plus (+) sign next to Mouse.
+
+4. Double-click the mouse you want to update the driver 
+   for.
+
+5. Click Driver, and then click Update Driver.
+
+6. When the wizard starts, follow the instructions 
+   on your screen.
+
+If you use a Logitech serial mouse but have a PS/2 mouse 
+port on your computer, Windows 98 Second Edition may not 
+install the Logitech driver. If so, use the Device Manager 
+tab in the Systems Properties dialog box to change the 
+PS/2 mouse setting to Logitech Serial Mouse.   
+
+
+MOUSE SYSTEMS OR GENIUS
+=======================
+
+Windows 98 Second Edition does not have built-in drivers 
+for the Mouse Systems or Genius three-button mouse. The 
+standard mouse driver will work with these devices in 
+their two-button mode. Driver updates are available from 
+the Windows Driver Library (WDL) or in the \Drivers\Mouse 
+folder on the Windows 98 Second Edition CD.
+
+
+MICROSOFT NATURAL KEYBOARDS
+===========================
+
+Windows 98 Second Edition has built-in support for the 
+Microsoft Natural Keyboard. Windows logo keys have added 
+functionality under the new operating system.
+
+You will be unable to install IntelliType version 1.00 under 
+Windows 98 Second Edition. If you upgrade to Windows 98 
+Second Edition over a previously installed Windows 3.1 or 
+Windows 95 configuration, IntelliType will have limited 
+functionality.
+
+If you are upgrading a Windows 3.x or Windows 95 configuration that 
+has IntelliType version 1.00 software, it is recommended that you 
+delete the following line from your System.ini file, which is located 
+in the folder that contains your Windows 98 files:
+
+	taskman.exe=TASKSW16.EXE
+
+This deletion deactivates the Windows 3.1 IntelliType Task Manager 
+and ensure full support of the Windows logo keys under Windows 98
+Second Edition.  
+
+
+MICROSOFT INTELLIPOINT 1.00
+============================
+
+Windows 98 Second Edition has built-in support for the Microsoft 
+mouse.
+
+You cannot install IntelliPoint version 1.00 under Windows 98
+Second Edition. If you upgrade to Windows 98 Second Edition
+over a previously installed Windows 3.1 or Windows 95 
+configuration, IntelliPoint will have limited functionality. 
+Contact Microsoft for an updated version of IntelliPoint 
+software.
+
+
+MICROSOFT BALLPOINT MOUSE
+=========================
+
+If you need to adjust settings, such as orientation, for your 
+BallPoint mouse, use the Mouse Manager or IntelliPoint in Control 
+Panel that came with your mouse. If the IntelliPoint icon is not 
+already installed on your computer, contact Microsoft for an updated 
+version of the mouse software.
+
+
+
+
+
+

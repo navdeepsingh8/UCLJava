@@ -1,0 +1,28 @@
+Lexer Test
+========
+
+Test Program: test.prog
+-----------------------
+
+while (x) { x = 3; y = 6; }
+print("abcde");
+if (a) { x = 0 ; y = 1 ; }
+
+Output:
+-------
+
+C:\My Documents\1b11\Parsing>java Lexer < test.prog
+
+1: while (x) { x = 3; y = 6; }
+WHILE[while] LPAREND[(] ID[x] RPAREND[)] LCOMPOUND[{] ID[x] ASSIGN[=] NUM[3] TER
+MINATOR[;] ID[y] ASSIGN[=] NUM[6] TERMINATOR[;] RCOMPOUND[}]
+
+2: print("abcde" + x);
+PRINT[print] LPAREND[(] STRING["abcde"] CATOP[+] ID[x] RPAREND[)] TERMINATOR[;]
+
+3: if (a) { x = 0 ; y = 1 ; }
+IF[if] LPAREND[(] ID[a] RPAREND[)] LCOMPOUND[{] ID[x] ASSIGN[=] NUM[0] TERMINATO
+R[;] ID[y] ASSIGN[=] NUM[1] TERMINATOR[;] RCOMPOUND[}]
+
+4: null
+EOF PAST_EOF

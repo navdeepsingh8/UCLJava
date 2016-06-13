@@ -1,0 +1,50 @@
+Compiler Test
+==========
+
+Test Program: test.prog (syntactically correct)
+---------------------------------------------
+
+while (x) { x = 3; y = 6; }
+print("abcde");
+if (a) { x = 0 ; y = 1 ; }
+
+Output:
+-------
+
+C:\My Documents\1b11\Parsing>java Compiler < test.prog
+
+1: while (x) { x = 3; y = 6; }
+
+2: print("abcde");
+
+3: if (a) { x = 0 ; y = 1 ; }
+
+4: null
+
+Test Program: test2.prog (faulty)
+--------------------------------
+
+while (x) { x = 3; y = 6; }
+print("abcde");
+if (a)  x = 0 ; y = 1 ; }
+
+Output:
+-------
+
+C:\My Documents\1b11\Parsing>java Compiler < test2.prog
+
+1: while (x) { x = 3; y = 6; }
+
+2: print("abcde");
+
+3: if (a)  x = 0 ; y = 1 ; }
+Error in your source program at line 3
+if (a)  x = 0 ; y = 1 ; }
+                        ^
+No statement begins with RCOMPOUND[}].  Skipping ...
+
+4: null
+Error in your source program at line 4
+
+^^^^
+At end of file
