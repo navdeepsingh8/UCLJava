@@ -2,7 +2,7 @@
 
 Java code I wrote during my undergraduate days in the Computer Science department at UCL from 2000 to 2004. This was the first time I was formally taught programming, and the first time I tried object oriented programming. I remember falling in love with the concept!
 
-[__\_lib__](\_lib/): Some dependency classes written by the course <a href="http://www0.cs.ucl.ac.uk/staff/G.Roberts/" target=_blank>lecturer</a>
+[__\_lib__](\_lib/): Some dependency classes written by the course <a href="http://www0.cs.ucl.ac.uk/staff/G.Roberts/" target="_blank">lecturer</a>
 
 [__\_practise__](\_practise/): My testing ground for trying out stuff and learning from other people's code. Who knows [what](\_practise/BackDoorServer.java) you'll find in there...
 
