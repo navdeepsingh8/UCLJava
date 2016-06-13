@@ -1,7 +1,0 @@
-this is a sample text file
-it cannot contain numbers or symbols
-but can contain spaces and line returns
-this is because my program is limited in several ways
-however its only early days
-one day i hope to be a successful programmer
-one day
