@@ -1,0 +1,229 @@
+Project documentation
+<---- javadoc command: ---->
+c:\java\j2sdk_142\bin\javadoc.exe
+-sourcepath
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src
+-classpath
+C:\Program Files\BlueJ\lib\junit.jar
+-d
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc
+-source
+1.4
+-doctitle
+src
+-windowtitle
+src
+-link
+http://java.sun.com/j2se/1.4/docs/api/
+-author
+-version
+-nodeprecated
+-package
+svmapp
+svmapp.tests
+libsvm
+<---- end of javadoc command ---->
+Loading source files for package svmapp...
+Loading source files for package svmapp.tests...
+Loading source files for package libsvm...
+Constructing Javadoc information...
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:4: package org.jfree.data does not exist
+import org.jfree.data.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:5: package org.jfree.chart does not exist
+import org.jfree.chart.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:6: package org.jfree.chart.plot does not exist
+import org.jfree.chart.plot.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:7: package org.jfree.chart.renderer does not exist
+import org.jfree.chart.renderer.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:8: package org.jfree.chart.axis does not exist
+import org.jfree.chart.axis.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:9: package org.jmathplot.gui does not exist
+import org.jmathplot.gui.*;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:34: cannot resolve symbol
+symbol  : class ContourDataset 
+location: class svmapp.Chart
+	private ContourDataset contourData ;
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:36: cannot resolve symbol
+symbol  : class Range 
+location: class svmapp.Chart
+	private Range preferredX ;
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:38: cannot resolve symbol
+symbol  : class Range 
+location: class svmapp.Chart
+	private Range preferredY ;
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\Chart.java:139: cannot resolve symbol
+symbol  : class XYSeriesCollection 
+location: class svmapp.Chart
+	private XYSeriesCollection createCollection(double[][] data, int[] labels, int nr_class) {	
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:5: package org.jmathplot.gui does not exist
+ import org.jmathplot.gui.*;
+ ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:6: package org.jfree.data does not exist
+ import org.jfree.data.* ;
+ ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:7: package org.jfree.chart does not exist
+ import org.jfree.chart.* ;
+ ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:8: package org.jfree.chart.plot does not exist
+ import org.jfree.chart.plot.* ;
+ ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:9: package org.jfree.chart.renderer does not exist
+ import org.jfree.chart.renderer.* ;
+ ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:10: package org.jfree.chart.axis does not exist
+ import org.jfree.chart.axis.* ;
+ ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:33: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+	private XYSeries svSolutions ;
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:189: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+ 	private XYSeries evaluate(XYSeries series,int kernel) {
+                                  ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:189: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+ 	private XYSeries evaluate(XYSeries series,int kernel) {
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:212: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+ 	private XYSeries evaluateBayes(XYSeries series) {
+                                       ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:212: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+ 	private XYSeries evaluateBayes(XYSeries series) {
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:233: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+	private XYSeries error(XYSeries series,double[] m) {
+                               ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:233: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.ROC
+	private XYSeries error(XYSeries series,double[] m) {
+                ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:350: cannot resolve symbol
+symbol  : class XYDataset 
+location: class svmapp.tests.ROC
+	public void XYChart(XYDataset curves, XYDataset solutions,String title) {
+                            ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\ROC.java:350: cannot resolve symbol
+symbol  : class XYDataset 
+location: class svmapp.tests.ROC
+	public void XYChart(XYDataset curves, XYDataset solutions,String title) {
+                                              ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:7: package org.jfree.data does not exist
+import org.jfree.data.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:8: package org.jfree.chart does not exist
+import org.jfree.chart.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:9: package org.jfree.chart.plot does not exist
+import org.jfree.chart.plot.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:10: package org.jfree.chart.renderer does not exist
+import org.jfree.chart.renderer.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:11: package org.jfree.chart.axis does not exist
+import org.jfree.chart.axis.* ;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:12: package org.jmathplot.gui does not exist
+import org.jmathplot.gui.*;
+^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:242: cannot resolve symbol
+symbol  : class XYSeries 
+location: class svmapp.tests.Sanity
+	public void XYChart(String title, String x, XYSeries series,Range xRange,Range yRange) {
+                                                    ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:242: cannot resolve symbol
+symbol  : class Range 
+location: class svmapp.tests.Sanity
+	public void XYChart(String title, String x, XYSeries series,Range xRange,Range yRange) {
+                                                                    ^
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Sanity.java:242: cannot resolve symbol
+symbol  : class Range 
+location: class svmapp.tests.Sanity
+	public void XYChart(String title, String x, XYSeries series,Range xRange,Range yRange) {
+                                                                                 ^
+Standard Doclet version 1.4.2_03
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\constant-values.html...
+Building tree for all the packages and classes...
+Building index for all the packages and classes...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\overview-tree.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\index-all.html...
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Matrix.java:9: warning - The first sentence is interpreted to be:
+"Provides Matrix operations as static methods."
+This sentence is different from what will be interpreted as the first sentence in the
+next major release (when that interpretation will be internationalized), which is:
+"Provides Matrix operations as static methods. m by n matrices are represented
+ by 2 dimensional double arrays; ie. double[m][n]."
+To avoid this note, change the doc comment to make this a proper first sentence, then
+use -breakiterator from that point forward, which will output this new sentence.
+Building index for all classes...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\allclasses-frame.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\allclasses-noframe.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\index.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\packages.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\overview-summary.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\overview-frame.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\package-frame.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\package-summary.html...
+C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\tests\Matrix.java:9: warning - The first sentence is interpreted to be:
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\package-tree.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\package-frame.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\package-summary.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\package-tree.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\tests\package-frame.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\tests\package-summary.html...
+"Provides Matrix operations as static methods."
+This sentence is different from what would be generatedC:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\svmapp\GUI.java:546: warning - Tag @see: can't find setSVMParams() in svmapp.SVMTrain
+ using -breakiterator: 
+"Provides Matrix operations as static methods. m by n matrices are represented
+ by 2 dimensional double arrays; ie. double[m][n]."
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\tests\package-tree.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\Chart.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\gen_parameter.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\Generator.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\GUI.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\IO.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\SVMApp.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\SVMTrain.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\tests\Matrix.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\tests\ROC.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\svmapp\tests\Sanity.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\Cache.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\Kernel.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\ONE_CLASS_Q.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\Solver.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\Solver_NU.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\Solver.SolutionInfo.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\SVC_Q.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\svm.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\svm_model.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\svm_node.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\svm_parameter.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\svm_problem.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\svm.decision_function.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\libsvm\SVR_Q.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\serialized-form.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\package-list...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\help-doc.html...
+Generating C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\stylesheet.css...
+37 warnings
+try to open: C:\Documents and Settings\Navdeep\My Documents\Uni\Modules\4th Year\4C01\Software\libsvm-2.5\java\src\doc\index.html
