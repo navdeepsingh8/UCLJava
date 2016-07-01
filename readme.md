@@ -10,6 +10,8 @@ Java code I wrote during my undergraduate days in the [Computer Science](http://
 
 [__Greed__](Greed/): A simple <a href="https://en.wikipedia.org/wiki/Farkle" target="_blank">dice game</a>, set as a first year coursework to practise writing object oriented code.
 
+[__Pigs__](Pigs/): Some mathematical computations for another [game](https://en.wikipedia.org/wiki/Pig_(dice_game))
+
 [__Nokia__](Nokia/): An incomplete attempt at mimicking some of the UI functionality of my (then) smart new <a href="http://bit.ly/1GL6m9W" target="_blank">Nokia 3310</a> mobile phone :D
 
 [__Parsing__](Parsing/): Another coursework, this time to write a parser. All personal memory of this period in my life has vanished due to the trauma.
