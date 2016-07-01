@@ -1,6 +1,6 @@
 ## UCL Java
 
-Java code I wrote during my undergraduate days in the [Computer Science](http://www.cs.ucl.ac.uk/) department at UCL between 2000 and 2004. This was the first time I was formally taught programming, and the first time I tried doing any object oriented programming. I remember falling in love with the concept!
+Java code I wrote during my undergraduate days in the [Mathematics](http://www.ucl.ac.uk/maths) and [Computer Science](http://www.cs.ucl.ac.uk/) departments at UCL between 2000 and 2004. This was the first time I was formally taught programming, and the first time I tried doing any object oriented programming. I remember falling in love with the concept!
 
 [__\_lib__](\_lib/): Some dependency classes written by the course <a href="http://www0.cs.ucl.ac.uk/staff/G.Roberts/" target="_blank">lecturer</a>
 
@@ -10,11 +10,11 @@ Java code I wrote during my undergraduate days in the [Computer Science](http://
 
 [__eBook__](eBook/): Another coursework: GUI for reading XML based e-books. I think some initial code was provided to us as a template to build upon.
 
-[__ftpclient__](ftpclient/): Far from complete, but an attempt at building an FTP client with a GUI.
+[__ftpclient__](ftpclient/): Far from complete, but an attempt at building an [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) client with a GUI.
 
 [__Greed__](Greed/): A simple <a href="https://en.wikipedia.org/wiki/Farkle" target="_blank">dice game</a>, set as a first year coursework to practise writing object oriented code.
 
-[__MachineLearning__](MachineLearning/): A few of the Java solutions I coded up to homework problems in my final year supervised and unsupervised learning modules, including single layer [perceptron](https://en.wikipedia.org/wiki/Perceptron), [K-means](https://en.wikipedia.org/wiki/K-means_clustering) clustering and some other stuff.
+[__MachineLearning__](MachineLearning/): A few of the Java solutions I coded up to homework problems in my final year [supervised](https://en.wikipedia.org/wiki/Supervised_learning) and [unsupervised](https://en.wikipedia.org/wiki/Unsupervised_learning) learning modules, including single layer [perceptron](https://en.wikipedia.org/wiki/Perceptron), [K-means](https://en.wikipedia.org/wiki/K-means_clustering) clustering and some other stuff.
 
 [__memoapp__](memoapp/): One of the first GUI apps I wrote; basically a memo pad.
 
